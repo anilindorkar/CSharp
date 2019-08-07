@@ -1,0 +1,6 @@
+C:\Users\admin\Documents\Visual Studio 2015\Projects\CSharp\OOPS\Console.OOPS\bin\Debug\Console.OOPS.exe.config
+C:\Users\admin\Documents\Visual Studio 2015\Projects\CSharp\OOPS\Console.OOPS\bin\Debug\Console.OOPS.exe
+C:\Users\admin\Documents\Visual Studio 2015\Projects\CSharp\OOPS\Console.OOPS\bin\Debug\Console.OOPS.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\CSharp\OOPS\Console.OOPS\obj\Debug\ConsoleApp.OOPS.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2015\Projects\CSharp\OOPS\Console.OOPS\obj\Debug\Console.OOPS.exe
+C:\Users\admin\Documents\Visual Studio 2015\Projects\CSharp\OOPS\Console.OOPS\obj\Debug\Console.OOPS.pdb

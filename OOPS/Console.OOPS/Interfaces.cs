@@ -4,9 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console.OOPS
+namespace ConsoleApp.OOPS
 {
     public interface Iinterface1 {
+        void method1();
+    }
 
+    public interface Iinterface2
+    {
+        void method1();
+    }
+
+    public interface Iinterface3
+    {
+        void method1();
     }
 }
