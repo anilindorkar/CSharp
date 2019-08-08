@@ -12,11 +12,26 @@ namespace ConsoleApp.OOPS
         {
 
 
-            OverrideAndNew();
+            // OverrideAndNew();
+
+            // ContructorChaining();
+
+            SelfConstructorCall();
 
             Console.ReadLine();
         }
 
+        public static void SelfConstructorCall() {
+            SelfClass sclass = new OOPS.SelfClass();            
+        }
+
+        public static void ContructorChaining() {
+            MyChildClass mychildClass = new MyChildClass(1, 2, 3);
+            Console.WriteLine(mychildClass.sub(4, 6));
+        }
+        /// <summary>
+        ///  Override and New
+        /// </summary>
         public static void OverrideAndNew() {
             #region Override Vs Virtual
 

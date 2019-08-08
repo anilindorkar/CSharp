@@ -7,8 +7,8 @@
     <ProjectGuid>{B2DDFC4E-B8A2-428C-BE63-FE805A45CFAD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Console.OOPS</RootNamespace>
-    <AssemblyName>Console.OOPS</AssemblyName>
+    <RootNamespace>ConsoleApp.OOPS</RootNamespace>
+    <AssemblyName>ConsoleApp.OOPS</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,10 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConstructorChaining.cs" />
     <Compile Include="Interfaces.cs" />
     <Compile Include="OverrideAndVirtual.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticConstructor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
