@@ -16,9 +16,16 @@ namespace ConsoleApp.OOPS
 
             // ContructorChaining();
 
-            SelfConstructorCall();
+            // SelfConstructorCall();
+
+            // NameHiding();
 
             Console.ReadLine();
+        }
+
+        public static void NameHiding() {
+            NameHidingChild nm = new NameHidingChild();
+            int sumar = nm.sum(2, 34);
         }
 
         public static void SelfConstructorCall() {

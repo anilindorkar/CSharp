@@ -43,10 +43,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConstructorChaining.cs" />
+    <Compile Include="DefaultAccessSpecifier.cs" />
+    <Compile Include="FunctionVsConstructor.cs" />
     <Compile Include="Interfaces.cs" />
+    <Compile Include="NameHiding.cs" />
     <Compile Include="OverrideAndVirtual.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SealedClassandSealedMethod.cs" />
     <Compile Include="StaticConstructor.cs" />
   </ItemGroup>
   <ItemGroup>
