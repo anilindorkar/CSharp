@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClass.cs" />
+    <Compile Include="AccessSpecifier.cs" />
     <Compile Include="ConstructorChaining.cs" />
     <Compile Include="DefaultAccessSpecifier.cs" />
     <Compile Include="FunctionVsConstructor.cs" />

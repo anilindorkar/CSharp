@@ -20,7 +20,16 @@ namespace ConsoleApp.OOPS
 
             // NameHiding();
 
+            // AbstractClass();
+
             Console.ReadLine();
+        }
+
+        public static void AbstractClass() {
+            ChildInheritAbstractClass abc = new ChildInheritAbstractClass();
+            Console.WriteLine( abc.Sub(5,9));
+
+            AbstractBaseClass.ShowMessage();
         }
 
         public static void NameHiding() {
