@@ -14,7 +14,8 @@ namespace SOLID.Principles
     {
         #region Problem
         /// <summary>
-        /// SUMMARY 
+        /// SUMMARY : 
+        /// " S stands for SRP (Single responsibility principle):- A class should take care of only one responsibility."
         /// 1. The customer class is doing things WHICH HE IS NOT SUPPOSED TO DO. 
         /// 2. Customer class should do customer datavalidations, call the customer data access layer etc , but if you see the catch block closely it also doing LOGGING activity. 
         /// 3. In simple words its over loaded with lot of responsibility.

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B2DDFC4E-B8A2-428C-BE63-FE805A45CFAD}</ProjectGuid>
+    <ProjectGuid>{2AB5E33E-6182-4E20-B9F4-F39911A4270D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApp.OOPS</RootNamespace>
-    <AssemblyName>ConsoleApp.OOPS</AssemblyName>
+    <RootNamespace>SortingAlgorithms</RootNamespace>
+    <AssemblyName>SortingAlgorithms</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,21 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractClass.cs" />
-    <Compile Include="AbstractClassandInterface.cs" />
-    <Compile Include="AccessSpecifier.cs" />
-    <Compile Include="BaseChildInheritence.cs" />
-    <Compile Include="ConstructorChaining.cs" />
-    <Compile Include="DefaultAccessSpecifier.cs" />
-    <Compile Include="FunctionVsConstructor.cs" />
-    <Compile Include="InterfaceInheritance.cs" />
-    <Compile Include="Interfaces.cs" />
-    <Compile Include="NameHiding.cs" />
-    <Compile Include="OverrideAndVirtual.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SealedClassandSealedMethod.cs" />
-    <Compile Include="StaticConstructor.cs" />
+    <Compile Include="QuickSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
